@@ -10,3 +10,11 @@ Software properties
                      | -> Abstraction
 
 
+
+Unit Testing:
+
+man assert: el abuelo de las excepciones, con ese se declara para que el programa detecte en donde esta el error
+
+#define decide cual es el valor maximo que recibe
+
+
