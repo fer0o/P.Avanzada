@@ -1,0 +1,12 @@
+Software properties
+
+-> Hard for bugs: Fallar cuanto antes: validar tipos de datos
+
+-> Easy to read: programar como si el que vaya a leer tu código sepa donde vives/ codigo comentado hace que sea difícil de leer| -> seleccionar un estilo
+                                                                                                                               | -> comentarios necesarios
+                                                                                                                               | -> No No hungar notation
+                                                                                                                               
+-> Ready for change: | -> NO harcode number
+                     | -> Abstraction
+
+
