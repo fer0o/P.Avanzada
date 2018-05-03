@@ -1,0 +1,35 @@
+se crea un makefile para poder compilar desde el programa
+
+gcc hace dos cosas: compila y enlaza
+
+main.o 
+
+cada que uso main.gcc genero un main.o
+
+esto ayuda para la hora de compilar, ahorra tiempo y se ejectua solo los archivos cambiados
+
+
+definir hash
+
+typedef Struct{
+
+    char * key;
+
+    int value;
+
+} Element;
+
+HashTable[100]; es un simple arreglo 
+
+
+Colisiones
+
+como manejar las colisiones:
+
+
+estructura:
+
+insertar(key, value)
+getkey()
+
+getvalue(key)
