@@ -44,7 +44,7 @@ int main() {
 
         vector punto  point2;
         for(auto x : s)
-            point2.remplace(x);
+            point2.strcat(x);
 
         point2 = convexHull(point2);
 
