@@ -12,10 +12,8 @@ Optimize for runtime over memory
 
 
 Solución:
-Para esta kata es necesario buscar una película que se adapte sumandolas a la duración total del vuelo, por que con la duración de la primer película necesitamos encontrar una segunda que complemente el tiempo de la primera.
-Este algoritmo puede realizarse por medio de fuerza bruta haciendo una funcion que revise el tiempo del de la segunda película menos el tiempo de la primer película y que estos dos sean igual al tiempo total del vuelo
 
-contemplando eso como primera solución es muy complcado ya que usa mucha memoria y es muy difícil en caso de que haya muchas películas en seleccieon y ese o es la mejor solución.
+Una manera facil o mas bien directa es un arreglo que recorra todos los datos y que con eso puedan sumar el tiempo de vuelo exacto, sin embargo el proceso de ese metodo se complica en dado caso que la lista de peliculas sea demasiado larga.
+Otra manera es hacer una funcion que pueda ordenar el tamaño de las películas y solo con esa buscar una película que acomplete el tiempo estimado y así la busqueda se reduce bastante.
 
-
-
+La opción mas compleja es un algoritmo de fuerza bruta que agarre el tiempo de las películas y vaya haciendo combinación por combinaciónhasta encontrar el tiempo exacto y así llenar el tiempo total de vuelo
