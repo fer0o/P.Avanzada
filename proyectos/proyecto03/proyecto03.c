@@ -1,18 +1,18 @@
 #include<stdio.h>
 #include<math.h>
-long long ultimok(int n,int p,long long kp)
+long long ultk(int n,int p,long long oper)
 {
        long long res = 1, base = n;
        while (p) {
                if (p&1) {
-                       res = (res*base)%kp;
+                       res = (res*base)%oper;
                }
-               base = (base*base)%kp;
+               base = (base*base)%oper;
                p>>=1;
        }
        return res;
 }
-long long primerk(int n,int k)
+long long primk(int n,int k)
 {
        long double m = n*log10l(n);
        long double p = powl(10,m-(int)m);
@@ -29,7 +29,7 @@ int main()
        {
                int n,k;
                scanf("%d %d",&n,&k);
-               long long kp = pow(10,k);
-               printf("%lld %0*lld\n",primerk(n,k),k,ultimok(n,n,kp));	        }
+               long long oper = pow(10,k);
+               printf("%lld %0*lld\n",primk(n,k),k,ultk(n,n,oper));	        }
        return 0;
 }
